@@ -40,8 +40,10 @@ h3, h3 p {
 }
 .recipes {
     display: flex;
-
+    justify-content: center;
+    align-items: center;
     height: 220px;
+    background-color: skyblue;
 }
 ul {
 display: flex;
