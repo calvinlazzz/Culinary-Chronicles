@@ -1,0 +1,59 @@
+body {
+    background-color: #f3f3f3;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://images.unsplash.com/photo-1557683316-973673baf926');
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    background-color: aquamarine;
+}
+
+h3, h3 p {
+    text-align: center;
+    color: #333;
+    background-color: aliceblue;
+}
+
+
+.Calvin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.list1 {
+    margin-right: 20px;
+    background-color: cadetblue;
+}
+
+.pictures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    height: 220px;
+}
+.recipes {
+    display: flex;
+
+    height: 220px;
+}
+ul {
+display: flex;
+flex-direction: row;
+list-style-type: none;
+gap: 100px;
+margin: 30px;
+}
+img {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    border-radius: 15px;
+
+}
